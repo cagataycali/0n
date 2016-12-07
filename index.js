@@ -47,13 +47,11 @@ function c() {
 
 E(`${globalModulesDir}/0n/run.sh`)
   .then((value) => {
-
     c()
       .then((init) => {
         require('./lib/init')().then((value) => {console.log(value);}).catch((err) => {console.log(err);})
       })
       .catch((init) => {
-        console.log(init);
         q();
       })
   })
