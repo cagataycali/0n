@@ -3,6 +3,8 @@ const async = require('async');
 const E = require('3x3c');
 const inquirer = require('inquirer');
 var globalModulesDir = require('global-modules');
+var updateNotifier = require('update-notifier');
+var pkg = require('./package.json');
 
 function q() {
   var questions = [

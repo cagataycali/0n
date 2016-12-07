@@ -21,6 +21,7 @@
     "node-notifier": "^4.6.1",
     "nodemailer": "^2.6.4",
     "pm2": "^2.1.6",
+    "update-notifier": "^1.0.3",
     "valid-url": "^1.0.9"
   },
   "scripts": {
