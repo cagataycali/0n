@@ -2,6 +2,8 @@
 const async = require('async');
 const E = require('3x3c');
 const inquirer = require('inquirer');
+var globalModulesDir = require('global-modules');
+
 // if is online :)
 
 var init = false;
@@ -18,7 +20,7 @@ if (init) {
   require('./lib/init')().then((value) => {console.log(value);}).catch((err) => {console.log(err);})
 } else {
 
-  E('./run.sh')
+  E(`${globalModulesDir}/0n/run.sh`)
     .then((value) => {
       var questions = [
         {
