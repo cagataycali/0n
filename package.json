@@ -1,6 +1,6 @@
 {
   "name": "0n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check your sites online",
   "main": "index.js",
   "author": "Çağatay Çalı",
@@ -27,8 +27,6 @@
     "type": "git",
     "url": "git+https://github.com/cagataycali/0n.git"
   },
-  "author": "Çağatay Çalı",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/cagataycali/0n/issues"
   },
