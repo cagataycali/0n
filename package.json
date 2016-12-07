@@ -1,0 +1,29 @@
+{
+  "name": "0n",
+  "version": "1.0.0",
+  "description": "Check your sites is reachable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "0n": "./index.js"
+  },
+  "author": "Çağatay Çalı",
+  "license": "ISC",
+  "dependencies": {
+    "3x3c": "^1.0.2",
+    "async": "^2.1.4",
+    "colors": "^1.1.2",
+    "cron": "^1.1.1",
+    "express": "^4.14.0",
+    "global-modules": "^0.2.3",
+    "inquirer": "^2.0.0",
+    "is-reachable": "^2.0.0",
+    "jsonfile": "^2.4.0",
+    "node-notifier": "^4.6.1",
+    "nodemailer": "^2.6.4",
+    "pm2": "^2.1.6",
+    "valid-url": "^1.0.9"
+  }
+}
