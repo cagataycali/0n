@@ -1,6 +1,6 @@
 {
   "name": "0n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check your sites is reachable",
   "main": "index.js",
   "scripts": {
