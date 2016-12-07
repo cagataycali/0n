@@ -1,10 +1,13 @@
 {
   "name": "0n",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Check your sites online",
   "main": "index.js",
   "author": "Çağatay Çalı",
   "license": "ISC",
+  "bin": {
+    "0n": "./index.js"
+  },
   "dependencies": {
     "3x3c": "^1.0.2",
     "async": "^2.1.4",
