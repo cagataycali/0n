@@ -6,22 +6,24 @@ var globalModulesDir = require('global-modules');
 
 // if is online :)
 
-var init = false;
-try {
-  var preferences = require(`${process.env['HOME']}/.0n/preferences.json`).mail;
-  if (preferences.username.length < 0 || preferences.password.length < 0 || preferences.to.length < 0 || preferences.from.length < 0) {
-    init = true;
-  }
-} catch (e) {
-  init = true;
-}
+E(`${globalModulesDir}/0n/run.sh`)
+  .then((value) => {
 
-if (init) {
-  require('./lib/init')().then((value) => {console.log(value);}).catch((err) => {console.log(err);})
-} else {
 
-  E(`${globalModulesDir}/0n/run.sh`)
-    .then((value) => {
+    var init = false;
+    try {
+      var preferences = require(`${process.env['HOME']}/.0n/preferences.json`).mail;
+      if (preferences.username.length < 0 || preferences.password.length < 0 || preferences.to.length < 0 || preferences.from.length < 0) {
+        init = true;
+      }
+    } catch (e) {
+      init = true;
+    }
+
+    if (init) {
+      require('./lib/init')().then((value) => {console.log(value);}).catch((err) => {console.log(err);})
+    } else {
+
       var questions = [
         {
           type: 'list',
@@ -46,8 +48,10 @@ if (init) {
          }
       });
 
+    }
 
-    })
-    .catch((err) => {console.log(err);})
 
-}
+
+
+  })
+  .catch((err) => {console.log(err);})
