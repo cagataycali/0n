@@ -17,3 +17,7 @@ npm i -g 0n
 
 * 0n needs nodejs in environment, version 6 or upper
 * You can use these tool in linux or MAC OS X.
+
+# ScreenShots
+
+![0n, adding your sites][https://raw.githubusercontent.com/cagataycali/0n/master/screenshots/add.png]
