@@ -16,6 +16,6 @@ fi
 if [ -f "preferences.json" ]; then
     echo "preferences exist.";
 else
-    echo '{ "native": true, "mail":  { "username": "", "password": "", "to": "", "from": "" }  }' > preferences.json;
+    echo '{ "native": true, "key": "", "mail":  { "username": "", "password": "", "to": "", "from": "" }  }' > preferences.json;
 fi
 echo "Config synced.";

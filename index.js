@@ -12,7 +12,7 @@ function q() {
       type: 'list',
       name: 'option',
       message: 'How can I help you,',
-      choices: ['List', 'Add', 'Remove', 'Run worker!', 'Stop worker!'],
+      choices: ['List', 'Add', 'Remove','Telegram', 'Run worker!', 'Stop worker!'],
     }
   ];
 
@@ -24,6 +24,8 @@ function q() {
        require('./lib/add')().then(value => {console.log(value);}).catch((err) => {console.log(err);})
      } else if (answers.option === 'Remove') {
        require('./lib/remove')().then((value) => {console.log(value);}).catch((err) => {console.log(err);})
+     } else if (answers.option === 'Telegram') {
+       require('./lib/telegram')();
      } else if (answers.option === 'Run worker!') {
        require('./lib/worker').run();
      } else if (answers.option == 'Stop worker!') {
