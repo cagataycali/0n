@@ -23,10 +23,13 @@
     "pm2": "^2.1.6",
     "request": "^2.79.0",
     "update-notifier": "^1.0.3",
-    "valid-url": "^1.0.9"
+    "valid-url": "^1.0.9",
+    "snyk": "^1.47.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -35,5 +38,6 @@
   "bugs": {
     "url": "https://github.com/cagataycali/0n/issues"
   },
-  "homepage": "https://github.com/cagataycali/0n#readme"
+  "homepage": "https://github.com/cagataycali/0n#readme",
+  "snyk": true
 }
