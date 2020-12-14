@@ -18,7 +18,7 @@
     "inquirer": "^2.0.0",
     "is-reachable": "^2.0.0",
     "jsonfile": "^2.4.0",
-    "node-notifier": "^4.6.1",
+    "node-notifier": "^9.0.0",
     "nodemailer": "^2.6.4",
     "pm2": "^2.1.6",
     "request": "^2.79.0",
