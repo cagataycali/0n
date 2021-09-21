@@ -15,7 +15,7 @@
     "cron": "^1.1.1",
     "express": "^4.14.0",
     "global-modules": "^0.2.3",
-    "inquirer": "^2.0.0",
+    "inquirer": "^7.0.5",
     "is-reachable": "^2.0.0",
     "jsonfile": "^2.4.0",
     "node-notifier": "^4.6.1",
