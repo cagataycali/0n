@@ -16,7 +16,7 @@
     "express": "^4.14.0",
     "global-modules": "^0.2.3",
     "inquirer": "^2.0.0",
-    "is-reachable": "^2.0.0",
+    "is-reachable": "^5.0.0",
     "jsonfile": "^2.4.0",
     "node-notifier": "^4.6.1",
     "nodemailer": "^2.6.4",
