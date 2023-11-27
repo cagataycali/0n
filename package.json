@@ -18,9 +18,9 @@
     "inquirer": "^2.0.0",
     "is-reachable": "^2.0.0",
     "jsonfile": "^2.4.0",
-    "node-notifier": "^4.6.1",
-    "nodemailer": "^2.6.4",
-    "pm2": "^2.1.6",
+    "node-notifier": "^5.0.0",
+    "nodemailer": "^3.0.0",
+    "pm2": "^2.10.0",
     "request": "^2.79.0",
     "update-notifier": "^1.0.3",
     "valid-url": "^1.0.9"
